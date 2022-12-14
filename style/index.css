@@ -86,3 +86,64 @@ footer .name {
     font-family: 500 22px 'DM Sans';
     color: #2429AF;
 }
+
+.box-one,
+.box-two,
+.box-three {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 83px;
+}
+
+.first-project, .second-project, .third-project  {
+    width: 356px;
+    height: 365px;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-project h1 {
+    font: 500 24px 'DM Sans';
+    color: #181717;
+    height: 19px;
+    margin-bottom: 25px;
+}
+
+.dontnow {
+    width: 356px;
+    height: 169px;
+}
+
+.dontnow .text {
+    font: 400 22px 'DM Sans';
+    color: #181717;
+}
+
+.dontnow .language {
+    font: 400 22px 'DM Sans';
+    color: #606060;
+    margin-top: 50px;
+
+}
+
+.exile {
+    font: 500 22px 'DM Sans';
+    color: #181717;
+    text-decoration: underline;
+    margin-top: 160px;
+}
+
+.img-malevich {
+    background-image: url("../assets/Thumbnail.svg");
+    width: 640px;
+    height: 365px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+main .line {
+    height: 1.5px;
+    width: 1200px;
+    background-color: #181717;
+    margin: 108px 0 108px 8px;
+}

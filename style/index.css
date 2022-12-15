@@ -92,12 +92,24 @@ footer .name {
 .box-three {
     display: flex;
     justify-content: space-between;
+
+}
+
+.box-one, .box-two, .box-three{
     margin-top: 83px;
 }
 
-.first-project, .second-project, .third-project  {
+.first-project,
+.third-project {
     width: 356px;
     height: 365px;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-project {
+    width: 310px;
+    height: 320px;
     display: flex;
     flex-direction: column;
 }
@@ -130,7 +142,7 @@ footer .name {
     font: 500 22px 'DM Sans';
     color: #181717;
     text-decoration: underline;
-    margin-top: 160px;
+    margin-top: 140px;
 }
 
 .img-malevich {

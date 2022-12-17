@@ -8,14 +8,18 @@
 body {
     width: 1200px;
     margin: auto;
-    background: #E5E5E5;
+    background-color: #E5E5E5;
 }
 
 header {
+    position: fixed;
+    top: 0;
+    width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 15px;
+    padding: 15px 0;
+    background-color: #E5E5E5;
 }
 
 header .img-logo {
@@ -32,21 +36,35 @@ header nav {
 
 header nav p {
     font: 500 22px 'DM Sans';
-    margin-right: 27px;
     color: #181717;
 }
+
+
+header nav p:hover {
+    text-decoration: underline;
+}
+
+header nav p:not(:last-child) {
+    margin-right: 27px;
+}
+
 
 .preview {
     margin-top: 128px;
 }
 
 .preview .img-arrow {
+    position: relative;
     background-image: url("../assets/↓.svg");
     width: 33px;
     height: 39px;
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: 128px;
+}
+
+.preview .img-arrow:hover {
+    top: 3px
 }
 
 .preview .info {
@@ -76,14 +94,17 @@ footer .networks {
     display: flex;
 }
 
-footer .networks p {
-    margin-right: 30px;
-    font: 500 22px 'DM Sans';
+footer .networks p{
+    font-family: 500 22px 'DM Sans';
     color: #181717;
 }
 
+footer .networks p :not(:last-child) {
+    margin-right: 30px;
+}
+
 footer .name {
-    font-family: 500 22px 'DM Sans';
+    font: 500 22px 'DM Sans';
     color: #2429AF;
 }
 
@@ -95,7 +116,9 @@ footer .name {
 
 }
 
-.box-one, .box-two, .box-three{
+.box-one,
+.box-two,
+.box-three {
     margin-top: 83px;
 }
 

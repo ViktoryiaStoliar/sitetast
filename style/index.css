@@ -39,7 +39,6 @@ header nav p {
     color: #181717;
 }
 
-
 header nav p:hover {
     text-decoration: underline;
 }
@@ -47,7 +46,6 @@ header nav p:hover {
 header nav p:not(:last-child) {
     margin-right: 27px;
 }
-
 
 .preview {
     margin-top: 128px;
@@ -82,30 +80,6 @@ header nav p:not(:last-child) {
 .preview .info p {
     font: 400 32px 'DM Sans';
     color: #606060;
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 120px;
-}
-
-footer .networks {
-    display: flex;
-}
-
-footer .networks p{
-    font-family: 500 22px 'DM Sans';
-    color: #181717;
-}
-
-footer .networks p :not(:last-child) {
-    margin-right: 30px;
-}
-
-footer .name {
-    font: 500 22px 'DM Sans';
-    color: #2429AF;
 }
 
 .box-one,
@@ -181,4 +155,29 @@ main .line {
     width: 1200px;
     background-color: #181717;
     margin: 108px 0 108px 8px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 135px;
+}
+
+footer .networks {
+    display: flex;
+}
+
+footer .networks p {
+    margin-right: 30px;
+    font: 500 22px 'DM Sans';
+    color: #181717;
+}
+
+footer .networks p:not(:last-child) {
+    margin-right: 30px;
+}
+
+footer .name {
+    font: 500 22px 'DM Sans';
+    color: #2429AF;
 }

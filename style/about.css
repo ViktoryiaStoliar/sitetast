@@ -1,12 +1,12 @@
-*{
-  margin: 0;  
-padding: 0;
-font-style: normal;
-font-family: 'DM Sans';
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-family: 'DM Sans';
 }
 
-body{
-    background-color: #E5E5E5 ;
+body {
+    background-color: #E5E5E5;
     margin: auto;
     width: 1200px;
 }
@@ -47,12 +47,92 @@ header nav p:hover {
     text-decoration: underline;
 }
 
-.about .about-img{
+.about {
+    margin-top: 149px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .about-img {
     background-image: url(../assets/Thumbnail\ \(1\).svg);
     width: 405px;
     height: 457px;
     background-repeat: no-repeat;
 }
+
+.about .about-info {
+    width: 575px;
+}
+
+.about .about-info h1 {
+    font: 500 60px 'DM Sans';
+    color: #181717;
+    margin-bottom: 20px;
+}
+
+.about .about-info p {
+    font: 400 24px 'DM Sans';
+    color: #181717;
+}
+
+.skills div {
+    display: flex;
+    width: 630px;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.skills div p {
+    width: 430px;
+    font: 400 20px 'DM Sans';
+    color: #181717;
+}
+
+.skills div h3 {
+    font: 500 22px 'DM Sans';
+    color: #181717;
+    text-decoration: underline;
+}
+
+.line {
+    height: 2px;
+    width: 1200px;
+    background-color: #181717;
+    margin: 108px 0 108px 8px;
+}
+
+.contacts {
+    display: flex;
+    width: 1200px;
+}
+
+.contacts div {
+    height: 71px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts .text {
+    width: 400px;
+    font: 400 32px 'DM Sans';
+    color: #181717;
+    padding-right: 41px;
+}
+
+.contacts .img-arrow {
+    background-image: url(../assets/↓\ \(1\).svg);
+    width: 21px;
+    height: 24px;
+    background-repeat: no-repeat;
+    padding-right: 392px;
+}
+
+.contacts .mail {
+    width: 156px;
+    font: 400 32px 'DM Sans';
+    color: #181717;
+}
+
 
 
 
@@ -61,6 +141,11 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-top: 120px;
+}
+
+footer .name {
+    font: 500 22px 'DM Sans';
+    color: #2429AF;
 }
 
 footer .networks {
@@ -73,10 +158,7 @@ footer .networks p {
     color: #181717;
 }
 
-footer .networks p :not(:last-child){
-margin-right: 30px;
+footer .networks p :not(:last-child) {
+    margin-right: 30px;
 }
-footer .name {
-    font-family: 500 22px 'DM Sans';
-    color: #2429AF;
-}
+

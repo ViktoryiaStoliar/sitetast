@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-family: 'DM Sans';
+}
+
+body {
+    background-color: #E5E5E5;
+    margin: auto;
+    width: 1200px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    background-color: #E5E5E5;
+}
+
+header .img-logo {
+    background-image: url("../assets/hs..svg");
+    width: 64px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav p {
+    font: 500 22px 'DM Sans';
+    color: #181717;
+}
+
+header nav p:not(:last-child) {
+    margin-right: 27px;
+}
+
+header nav p:hover {
+    text-decoration: underline;
+}
+
+.wrapper {
+    margin-top: 109px;
+    display: flex;
+}
+
+.wrapper .contacts {
+    width: 672px;
+    flex-direction: column;
+}
+
+.wrapper .contacts h1 {
+    font: 500 60px 'DM Sans';
+    color: #181717;
+}
+
+.wrapper .contacts p {
+    font: 400 22px 'DM Sans';
+    color: #606060;
+    margin-top: 32px;
+}
+
+.mail-info {
+    display: flex;
+    margin-top: 52px;
+}
+
+.mail-info div {
+    width: 676px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    margin-right: 47px;
+    text-align: left;
+    padding: 15px 0 15px 30px
+}
+
+.mail-info p {
+    width: 395px;
+    height: 76px;
+    font: 400 22px 'DM Sans';
+    color: #606060;
+}
+
+.phone-number {
+    display: flex;
+    margin-top: 52px;
+}
+
+.phone-number .button {
+    width: 676px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    margin-right: 47px;
+    text-align: left;
+    padding: 15px 0 15px 30px
+}
+
+.phone-number .number {
+    width: 399px;
+    height: 56px;
+}
+
+.phone-number .number p {
+    font: 400 22px 'DM Sans';
+    color: #606060;
+    display: flex;
+}
+
+.black {
+    background-color: black;
+    text-align: left;
+    width: 200px;
+    height: 50px;
+    margin-top: 56px;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+footer .name {
+    font: 500 22px 'DM Sans';
+    color: #2429AF;
+}
+
+footer .networks {
+    display: flex;
+}
+
+footer .networks p {
+    margin-right: 30px;
+    font: 500 22px 'DM Sans';
+    color: #181717;
+}
+
+footer .networks p :not(:last-child) {
+    margin-right: 30px;
+}

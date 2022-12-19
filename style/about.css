@@ -120,22 +120,24 @@ header nav p:hover {
 }
 
 .contacts .img-arrow {
+    position: relative;
     background-image: url(../assets/↓\ \(1\).svg);
-    width: 21px;
-    height: 24px;
+    width: 71px;
+    height: 71px;
+    display: flex;
+    padding-top: 10px;
     background-repeat: no-repeat;
     padding-right: 392px;
 }
 
+.contacts .img-arrow:hover {
+    right: 3px;
+}
+
 .contacts .mail {
-    width: 156px;
     font: 400 32px 'DM Sans';
     color: #181717;
 }
-
-
-
-
 
 footer {
     display: flex;

@@ -73,7 +73,7 @@ header nav p:hover {
     margin-top: 52px;
 }
 
-.mail-info div {
+.mail-info div, .phone-number .button {
     width: 676px;
     height: 20px;
     background-color: #FFFFFF;
@@ -94,17 +94,6 @@ header nav p:hover {
 .phone-number {
     display: flex;
     margin-top: 52px;
-}
-
-.phone-number .button {
-    width: 676px;
-    height: 20px;
-    background-color: #FFFFFF;
-    border: 1px solid #C4C4C4;
-    border-radius: 5px;
-    margin-right: 47px;
-    text-align: left;
-    padding: 15px 0 15px 30px
 }
 
 .phone-number .number {
